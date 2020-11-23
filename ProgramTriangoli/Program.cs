@@ -11,13 +11,11 @@ namespace ProgramTriangoli
     {
         static void Main(string[] args)
         {
-
-            Console.Clear();
-            double l1 = Class1.Lato();
-            double l2 = Class1.Lato();
-            double l3 = Class1.Lato();
-            string triangolo = Class1.OutputTrangolo(l1, l2, l3);
-            double? perimetro = Class1.Perimetro(l1, l2, l3);
+            double l1 = MetodiTriangoli.Lato();
+            double l2 = MetodiTriangoli.Lato();
+            double l3 = MetodiTriangoli.Lato();
+            string triangolo = MetodiTriangoli.OutputTrangolo(l1, l2, l3);
+            double? perimetro = MetodiTriangoli.Perimetro(l1, l2, l3);
             Console.ReadLine();
         }
     }
